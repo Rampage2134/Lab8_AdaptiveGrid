@@ -60,9 +60,8 @@
 }
 
 .gallery {
-    background-color: #2196f3;
-    color: white;
-    grid-template-columns: repeat(auto-fit, minmax(200px, fr));
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 15px;
 }
 
